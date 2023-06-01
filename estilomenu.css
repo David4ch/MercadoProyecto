@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: rgb(223, 226, 39);
+  height: 10vh;
+  justify-content: space-between;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(223, 226, 39);
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#insta {
+  margin-right: 10px;
+  margin-top: 15px;
+  height: 40px;
+}
+
+#listanav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 0%;
+  width: 10vw;
+  background-color: rgb(223, 226, 39);
+  border: 1px solid rgb(223, 226, 39);
+}
+
+li a {
+  border: 1px solid black;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(135, 137, 28);
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.menu {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#principio {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+
+#primer {
+  width: 30px;
+  height: 30px;
+}
+
+.margen {
+  border: 5px;
+  border-color: black;
+  border-style: double;
+  margin: 15px;
+}
+
+.ceviches {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+
+#tituloc {
+  color: yellow;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#explicacionv {
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+#infoc {
+  margin-top: 60px;
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: black;
+}
+
+hr {
+  color: white;
+}
+
+#c {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+  color: yellow;
+}
+
+#preparar1c {
+  margin-top: 15px;
+  width: 50vw;
+  height: 65vh;
+  background-color: black;
+}
+
+#creai {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#creaf {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+#preparar2c {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+label {
+  color: white;
+}
+
+#tituloprepara {
+  color: rgb(236, 232, 0);
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.base {
+  border: 1px solid white;
+  width: 350px;
+  height: 160px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.baseelegir,
+.jugoelegir {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.submitreset {
+  margin-left: 110px;
+  margin-top: 5px;
+}
+
+.juguito {
+  border: 1px solid white;
+  width: 350px;
+  height: 160px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ingredientes {
+  margin-top: 10px;
+  border: 1px solid white;
+  width: 350px;
+  height: 250px;
+}
+
+.elegiringredientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.guarnicion {
+  margin-top: 10px;
+  border: 1px solid white;
+  width: 350px;
+  height: 250px;
+}
+
+.elegirguar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#variaditosuno {
+  margin: auto;
+  width: 80vw;
+  height: 54vh;
+  background-color: black;
+  margin-bottom: 60px;
+}
+
+#titulov {
+  margin-top: 15px;
+  color: yellow;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulov2 {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: white;
+  text-align: center;
+}
+
+.variaditosdos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 69vw;
+  height: 42vh;
+  background-color: black;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#infov {
+  border: 1px solid white;
+  width: 49%;
+  height: 21vh;
+  margin-bottom: 10px;
+}
+
+#titulov2 {
+  text-align: center;
+  font-size: 25px;
+  color: yellow;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-style: oblique;
+}
+
+.imagenesv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+#imgv {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+#explicacionv {
+  color: white;
+}
+
+#preciov {
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+
+.infovuno {
+  margin-right: 15px;
+}
+
+.infovtres {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.infovcuatro {
+  margin-top: 10px;
+}
+
+.zumosuno {
+  margin-top: 60px;
+  margin: auto;
+  width: 83vw;
+  height: 40vh;
+  background-color: black;
+}
+
+#tituloz {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: yellow;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-style: oblique;
+}
+
+.zumosdos {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 6px;
+  justify-content: space-between;
+}
+
+#infoz {
+  width: 20%;
+  height: 100px;
+  border: 1px solid white;
+}
+
+#infoz:nth-child(1):hover {
+  background-color: rgb(79, 79, 31);
+}
+
+#infoz:nth-child(2):hover {
+  background-color: rgb(235, 102, 53);
+}
+
+#infoz:nth-child(3):hover {
+  background-color: rgb(215, 215, 83)
+}
+
+#infoz:nth-child(4):hover {
+  background-color: lightslategray;
+}
+
+#infoz:nth-child(5):hover {
+  background-color: rgb(248, 64, 64);
+}
+
+#infoz:nth-child(6):hover {
+  background-color: purple;
+}
+
+#textozumo1,
+#textozumo2,
+#textozumo3,
+#creaztitulo,
+#precioz {
+  color: white;
+  text-align: center;
+}
+#textozumo3 {
+  text-align: center;
+  color: yellow;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.creaz {
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 120px;
+  border: 1px solid white;
+}
+#creaztitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#precioz{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: yellow;
+}
+.bebidas {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  margin: auto;
+  margin-top: 60px;
+  height: 55vh;
+  background-color: black;
+}
+
+#titulob {
+  color: yellow;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+}
+
+#sectiontitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  width: 50%;
+}
+
+#sectionbebidas {
+  border: 1px solid white;
+  width: 50%;
+}
+
+#listafinal {
+  margin-top: 90px;
+  color: white;
+  list-style-type: square;
+}
+
+li {
+  margin-top: 10px;
+
+}
+#infov:hover{
+  box-shadow: 5px 10px yellow;
+}
+#listafinal li{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
